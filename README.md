@@ -35,7 +35,6 @@ A basic console calculator that handles essential mathematical operations.
 
 ## 📫 Connect With Me
 - Email: mykhaylo.stefinin@gmail.com
-- LinkedIn: [your-linkedin-url]
 
 ---
 
