@@ -2,50 +2,51 @@ import random
 
 print("---Welcome to Game---")
 print("-Guess The Number-")
+print("chose complexity of game")
+print("easy 1-3 numbers")
+print("normal 1-10 numbers")
+print("hard 1-15 numbers")
+print("your complexity 1-your numbers")
+
+def play(complex):
+    num = random.randint(1, complex)
+    while True:
+        try:
+            player = int(input(f"enter number 1 - {complex}: "))
+            if 1 <= player <= complex:
+                break
+            else:
+                print(f"ERROR. number must be between 1 and {complex}")
+        except ValueError:
+            print("ERROR. please write valid number")
+    
+    if player == num:
+        print("you won")
+    else:
+        print("you lose, the correct number is: ", num)
+
+def contin():
+    while True:
+        con = input("do you want continue the game? y/n: ")
+
+        if con == "y":
+            return True
+        elif con == "n":
+            return False
+        else:
+            print("ERROR. please write only 'y' or 'n'")
 
 while True:
-    print("-Now please chose game complexity-")
-    print("1. easy (1-3 numbers)")
-    print("2. normal (1-10 numebrs)")
-    print("3. hard (1-15 numbers)")
-    complexity = int(input("please enter complexity 1/2/3 : "))
+    try:
+        complex = int(input("write complexity = 3 / 5 / 15 / your number: "))
+        if complex > 0:
+            play(complex)
 
-    if complexity == 1:
-        num = random.randint(1, 3)
-        player = int(input("enter the number you think is correct: "))
-        if player == num:
-            print("Congratulations, you won.")
+            if not contin():
+                print("thanks for playing")
+                break
         else:
-            print("Sorry, you didn't guess the correct number. correct number: ", num)
-        next = input("do you want play again y/n: ")
-        if next == "y":
-            None
-        elif next == "n":
-            break
-   
-    if complexity == 2:
-        num = random.randint(1, 10)
-        player = int(input("enter the number you think is correct: "))
-        if player == num:
-            print("Congratulations, you won.")
-        else:
-            print("Sorry, you didn't guess the correct number. correct number: ", num)
-        next = input("do you want play again y/n: ")
-        if next == "y":
-            None
-        elif next == "n":
-            break
-
-    if complexity == 3:
-        num = random.randint(1, 15)
-        player = int(input("enter the number you think is correct: "))
-        if player == num:
-            print("Congratulations, you won.")
-        else:
-            print("Sorry, you didn't guess the correct number. correct number: ", num)
-        next = input("do you want play again y/n: ")
-        if next == "y":
-            None
-        elif next == "n":
-            break
-
+            print("ERROR. Complexity must be positive number!")
+    except ValueError:
+        print("ERROR. please write valid number")
+    
