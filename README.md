@@ -7,22 +7,17 @@ Hi! I'm Mykhaylo, a student passionate about programming and technology. Here yo
 ### Guess the Number Game
 A fun console game where you guess randomly generated numbers with multiple difficulty levels.
 
-**Features:**
-- 3 difficulty levels (Easy: 1-3, Normal: 1-10, Hard: 1-15)  
-- Play again functionality
-- Simple and intuitive interface
-- Error handling for invalid inputs
-
-**Tech:** Python, Random module
-
 ### Calculator
 A basic console calculator that handles essential mathematical operations.
 
-**Features:**
-- Addition, subtraction, multiplication, division
-- User-friendly input/output
+### Rock Paper Scissors
+Classic Rock, Paper, Scissors game built in Python. Play against the computer with randomized choices.
 
-**Tech:** Python
+### Bubble Sort
+Simple Bubble Sort algorithm implementation in Python. Sorts a list of numbers.
+
+### To Do List
+Command-line To-Do List app built with Python and SQLite3. Add, view, update and delete tasks with automatic date tracking and persistent local storage.
 
 ## 🛠️ Technologies & Skills
 - **Languages:** Python
@@ -30,7 +25,8 @@ A basic console calculator that handles essential mathematical operations.
 
 ## 📚 Currently Learning
 - Web Development (HTML, CSS, JavaScript)
-- Data Structures & Algorithms  
+- Data Structures & Algorithms
+- databases
 - Software Development Best Practices
 
 ## 📫 Connect With Me
