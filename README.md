@@ -19,6 +19,9 @@ Simple Bubble Sort algorithm implementation in Python. Sorts a list of numbers.
 ### To Do List
 Command-line To-Do List app built with Python and SQLite3. Add, view, update and delete tasks with automatic date tracking and persistent local storage.
 
+### Bank
+Simple bank program with GUI, login and account registration in python
+
 ## 🛠️ Technologies & Skills
 - **Languages:** Python
 - **Concepts:** Problem-solving, Algorithms, User Input Handling
@@ -27,6 +30,7 @@ Command-line To-Do List app built with Python and SQLite3. Add, view, update and
 - Web Development (HTML, CSS, JavaScript)
 - Data Structures & Algorithms
 - databases
+- GUI
 - Software Development Best Practices
 
 ## 📫 Connect With Me
