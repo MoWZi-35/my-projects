@@ -241,7 +241,7 @@ def main(page: ft.Page):
                 ),
                 ft.Row(
                     [
-                        ft.OutlinedButton(content=ft.Text('cout'), width=350, on_click=cout),
+                        ft.OutlinedButton(content=ft.Text('calculate'), width=350, on_click=cout),
                     ]
                 ),
                 ft.Row(
