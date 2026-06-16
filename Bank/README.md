@@ -16,4 +16,12 @@ Bank is a simple program with GUI that imitates a banking application that is co
 ## Requirements
 - python 3.x
 
-## Instalation and use
+## Instalation
+- install the bank.py file
+- then open a terminal and go to the folder where you downloaded bank.py
+- run the program with command python bank.py
+
+
+
+
+
