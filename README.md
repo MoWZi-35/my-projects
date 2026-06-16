@@ -22,16 +22,19 @@ Command-line To-Do List app built with Python and SQLite3. Add, view, update and
 ### Bank
 Simple bank program with GUI, login and account registration in python
 
+### FilaTrack
+program with a graphical interface for calculating the price of 3D printing and saving them
+
 ## 🛠️ Technologies & Skills
-- **Languages:** Python
+- **Languages:** Python, JavaScript
 - **Concepts:** Problem-solving, Algorithms, User Input Handling
 
 ## 📚 Currently Learning
 - Web Development (HTML, CSS, JavaScript)
+- python
 - Data Structures & Algorithms
 - databases
-- GUI
-- Software Development Best Practices
+- GUI for python programs
 
 ## 📫 Connect With Me
 - Email: mykhaylo.stefinin@gmail.com
