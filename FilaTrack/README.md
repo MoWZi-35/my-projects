@@ -3,7 +3,7 @@
 FilaTrack is an application with a GUI for calculating the cost of 3D printing, saving all prints in the print history and displaying printing statistics over time.
 
 ## Functions
-- counting printing cost
+- calculating printing cost
 - saving prints to history
 - statistics
 
@@ -19,26 +19,27 @@ FilaTrack is an application with a GUI for calculating the cost of 3D printing, 
 ## Installation
 - install the FilaTrack.py file
 - then open a terminal and install flet with command: pip install flet
-- in terminal go to the folder where you downloaded bank.py
-- run the program with command: python bank.py
+- in terminal go to the folder where you downloaded FilaTrack.py
+- run the program with command: python FilaTrack.py
 
 ## Use
 
-- To log in, you must enter your login and password, then click the login button if the account exists and the information is correct.
-- if you do not have an account, click on the register button.
+- Enter the appropriate data in the field.
+- To calculate the price after entering the data, press the count button.
+- To save this printout to history, press the save button.
   &nbsp;
-![Login](../Screenshots/FilaTrack/.png)
+![calculator](../Screenshots/FilaTrack/calculator.png)
 &nbsp;
 
-- To create an account, enter your details and press the register button.
-- After creating an account, press the login button and log in to your newly created account.
-![Login](../Screenshots/FilaTrack/.png)
+- To go to history page you have to click the history icon in the left menu.
+  &nbsp;
+![history](../Screenshots/FilaTrack/History.png)
 &nbsp;
 
-- For deposit enter the value in the field and then press the OK button under the deposit field.
-- To withdraw money, enter the value in the withdraw field and then press the OK button below the withdraw field.
-- To log out, press the log out button.
-![Login](../Screenshots/FilaTrack/.png)
+- To go to the stats page you have to click the stats icon in the left menu.
+- To delete all history and stats, you must press the delete all stats button. ATTENTION! after deleted, data cannot be restored.
+  &nbsp;
+![stats](../Screenshots/FilaTrack/stats.png)
 
 ## Author
 Mykhaylo Stefinin
