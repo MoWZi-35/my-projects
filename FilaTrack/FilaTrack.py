@@ -6,7 +6,6 @@ c = db.cursor()
 
 c.execute("""CREATE TABLE IF NOT EXISTS history(
         title text,
-        date text,
         material text,
         weight float,
         time integer,
