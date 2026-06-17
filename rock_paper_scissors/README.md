@@ -12,3 +12,8 @@ Classic Rock, Paper, Scissors game played against the computer.
 ## Usage
 ```bash
 python rock_paper_scissors.py
+```
+
+## Author
+Mykhaylo Stefinin
+- email: mykhaylo.stefinin@gmail.com
