@@ -11,3 +11,7 @@ A fun number guessing game where the player tries to guess a randomly generated 
 ## Usage
 ```bash
 python guess_number.py
+```
+## Author
+Mykhaylo Stefinin
+- email: mykhaylo.stefinin@gmail.com
