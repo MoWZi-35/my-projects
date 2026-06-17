@@ -25,3 +25,6 @@ Command-line To-Do List application built with Python and SQLite3.
 ```bash
 python To_Do_List.py
 ```
+## Author
+Mykhaylo Stefinin
+- email: mykhaylo.stefinin@gmail.com
