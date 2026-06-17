@@ -11,3 +11,8 @@ A simple command-line calculator that performs basic arithmetic operations.
 ## Usage
 ```bash
 python calculator.py
+```
+
+## Author
+Mykhaylo Stefinin
+- email: mykhaylo.stefinin@gmail.com
