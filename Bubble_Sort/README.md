@@ -23,3 +23,6 @@ Simple Bubble Sort algorithm implementation in Python.
 ```bash
 python buble_sort.py
 ```
+## Author
+Mykhaylo Stefinin
+- email: mykhaylo.stefinin@gmail.com
